@@ -12,4 +12,4 @@ The publish panel sends messages without leaving the app.
 Published messages appear in your own subscriptions immediately, so round-trip testing —
 publish, watch the tree update, check the chart — happens in one window.
 
-<!-- screenshot: publish.png -->
+![Publish panel with MQTT 5.0 properties](/screenshots/publish.png)

@@ -16,4 +16,4 @@ A profile stores:
 Profiles live in a local JSON file in your OS config directory — nothing is stored in the
 cloud. Edit or delete profiles from the context menu on each profile card.
 
-<!-- screenshot: connection-edit.png -->
+![Connection profile editor](/screenshots/connection-edit.png)

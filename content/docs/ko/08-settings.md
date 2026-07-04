@@ -9,4 +9,4 @@ slug: settings
 
 설정은 연결 프로필과 같은 OS별 설정 폴더에 로컬로 저장돼요.
 
-<!-- screenshot: settings.png -->
+![설정 화면](/screenshots/settings.png)

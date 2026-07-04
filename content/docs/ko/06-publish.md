@@ -12,4 +12,4 @@ slug: publish
 발행한 메시지는 내 구독에 즉시 나타나므로, 발행 → 트리 갱신 확인 → 차트 확인까지
 왕복 테스트가 창 하나에서 끝나요.
 
-<!-- screenshot: publish.png -->
+![MQTT 5.0 properties를 펼친 발행 패널](/screenshots/publish.png)

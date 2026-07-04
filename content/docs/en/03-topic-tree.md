@@ -12,7 +12,7 @@ discovery tool.
 - Click a node to filter the message list to that subtopic.
 - Collapsed branches keep aggregating in the background.
 
-<!-- screenshot: topic-tree.png -->
+![Topic tree built from a wildcard subscription](/screenshots/topic-tree.png)
 
 The tree pairs well with [real-time charts](#charts): select a numeric leaf and open the
 chart panel to plot it.

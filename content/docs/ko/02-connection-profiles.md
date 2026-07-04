@@ -15,4 +15,4 @@ slug: connection-profiles
 프로필은 OS별 설정 폴더의 로컬 JSON 파일에 저장되며, 클라우드에는 아무것도 올라가지
 않아요. 각 프로필 카드의 컨텍스트 메뉴에서 수정·삭제할 수 있어요.
 
-<!-- screenshot: connection-edit.png -->
+![연결 프로필 편집](/screenshots/connection-edit.png)

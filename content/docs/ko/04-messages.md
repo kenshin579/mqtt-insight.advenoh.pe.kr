@@ -16,4 +16,4 @@ payload를 **Plain / JSON / Hex / Base64** 뷰로 자유롭게 전환할 수 있
 같은 토픽의 연속된 메시지가 JSON이면, 바뀐 값이 도착 즉시 **하이라이트**돼요 —
 시끄러운 스트림에서 실제로 움직인 센서 필드를 찾아낼 때 특히 유용해요.
 
-<!-- screenshot: messages.png -->
+![검색과 JSON diff 하이라이트가 표시된 메시지 히스토리](/screenshots/messages.png)
