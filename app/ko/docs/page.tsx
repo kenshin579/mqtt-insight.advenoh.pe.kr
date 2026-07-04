@@ -8,7 +8,7 @@ import { SetHtmlLang } from '@/components/set-html-lang';
 import { siteConfig } from '@/lib/site-config';
 
 export const metadata: Metadata = {
-  title: '문서',
+  title: { absolute: `문서 | ${siteConfig.name}` },
   description: `${siteConfig.name} 사용법: 연결 프로필, 토픽 트리, 차트, Publish, 녹화, 설정.`,
   alternates: {
     canonical: '/ko/docs/',
