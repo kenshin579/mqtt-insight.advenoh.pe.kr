@@ -33,3 +33,7 @@ build/
 
 # brainstorming visual companion
 .superpowers/
+
+# Next.js
+.next/
+out/
