@@ -5,7 +5,7 @@ export function AppMock({ lang, title }: { lang: 'en' | 'ko'; title: string }) {
     chart: lang === 'ko' ? '차트 · sensors/temp' : 'Chart · sensors/temp',
   };
   return (
-    <div className="mi-mock">
+    <div className="mi-mock" aria-hidden="true">
       <div className="mi-mock-titlebar">
         <span className="mi-mock-dot" />
         <span className="mi-mock-dot" />
