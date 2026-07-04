@@ -54,5 +54,12 @@ export async function loadDocs(lang: DocLang): Promise<DocSection[]> {
     );
     sections.push({ slug: String(data.slug), title: String(data.title), html });
   }
+  const seen = new Set<string>();
+  for (const s of sections) {
+    if (seen.has(s.slug)) {
+      throw new Error(`${lang}: duplicate slug "${s.slug}" in content/docs — slugs must be unique per language`);
+    }
+    seen.add(s.slug);
+  }
   return sections;
 }
