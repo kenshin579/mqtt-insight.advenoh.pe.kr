@@ -10,4 +10,4 @@ a local **SQLite** file.
 - The database is a plain SQLite file, so you can query it later with any SQLite tool.
 - Recording state is visible in the UI while active.
 
-<!-- screenshot: recording.png -->
+![Recording in progress](/screenshots/recording.png)

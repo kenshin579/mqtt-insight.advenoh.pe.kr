@@ -16,4 +16,4 @@ binary payloads are readable in Hex or Base64.
 When consecutive messages on a topic are JSON, changed values are **highlighted** as they
 arrive — ideal for spotting which sensor field actually moved in a noisy stream.
 
-<!-- screenshot: messages.png -->
+![Message history with search and JSON diff highlighting](/screenshots/messages.png)

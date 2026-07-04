@@ -12,4 +12,6 @@ its own chart — small multiples, one per key — with **now / min / max / avg*
 - Stats are computed over the retained message history.
 - Works for plain numeric payloads as well as JSON keys.
 
+![Per-key small multiples with now / min / max / avg stats](/screenshots/charts-detail.png)
+
 Planned next: nested JSON path charts, multi-topic comparison, and chart/data export.

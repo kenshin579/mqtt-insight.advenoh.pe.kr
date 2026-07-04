@@ -10,4 +10,4 @@ slug: recording
 - 데이터베이스는 평범한 SQLite 파일이라, 나중에 어떤 SQLite 도구로든 조회할 수 있어요.
 - 기록 중에는 UI에 기록 상태가 표시돼요.
 
-<!-- screenshot: recording.png -->
+![기록 진행 중](/screenshots/recording.png)

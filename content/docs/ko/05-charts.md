@@ -12,4 +12,6 @@ slug: charts
 - 통계는 유지 중인 메시지 히스토리를 기준으로 계산돼요.
 - 순수 숫자 payload와 JSON 키 모두 지원해요.
 
+![키별 소형 차트와 now / min / max / avg 통계](/screenshots/charts-detail.png)
+
 다음 계획: 중첩 JSON path 차트, 멀티 토픽 비교, 차트/데이터 내보내기.

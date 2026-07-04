@@ -10,4 +10,4 @@ slug: settings
 
 Settings are stored locally in your OS config directory, next to connection profiles.
 
-<!-- screenshot: settings.png -->
+![Settings](/screenshots/settings.png)
