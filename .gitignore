@@ -30,3 +30,11 @@ build/
 
 # Logs
 *.log
+
+# brainstorming visual companion
+.superpowers/
+
+# Next.js
+.next/
+out/
+*.tsbuildinfo
