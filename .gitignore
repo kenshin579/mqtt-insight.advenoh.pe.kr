@@ -37,3 +37,4 @@ build/
 # Next.js
 .next/
 out/
+*.tsbuildinfo
