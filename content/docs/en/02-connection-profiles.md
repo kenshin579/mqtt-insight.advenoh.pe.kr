@@ -12,7 +12,6 @@ A profile stores:
 - **MQTT version** — 3.1.1 or 5.0
 - **Transport** — plain TCP, TLS, or WebSocket
 - **Credentials** — username / password if your broker requires them
-- **Default subscriptions** to apply on connect
 
 Profiles live in a local JSON file in your OS config directory — nothing is stored in the
 cloud. Edit or delete profiles from the context menu on each profile card.

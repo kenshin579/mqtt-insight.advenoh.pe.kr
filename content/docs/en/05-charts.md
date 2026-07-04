@@ -9,7 +9,7 @@ its own chart — small multiples, one per key — with **now / min / max / avg*
 ![Main view: topic tree, live messages and real-time charts](/screenshots/chart-view.png)
 
 - Charts stream in real time as messages arrive.
-- Stats are computed over the visible window.
+- Stats are computed over the retained message history.
 - Works for plain numeric payloads as well as JSON keys.
 
 Planned next: nested JSON path charts, multi-topic comparison, and chart/data export.
