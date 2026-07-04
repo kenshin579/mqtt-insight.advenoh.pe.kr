@@ -112,13 +112,20 @@ export function FAQ({ t, lang }: { t: Dict; lang: 'en' | 'ko' }) {
         <div className="mi-faq">
           {items.map((item, i) => (
             <div key={i} className={'mi-faq-item' + (open === i ? ' open' : '')}>
-              <button className="mi-faq-q" onClick={() => setOpen(open === i ? -1 : i)}>
+              <button
+                className="mi-faq-q"
+                aria-expanded={open === i}
+                aria-controls={`faq-a-${i}`}
+                onClick={() => setOpen(open === i ? -1 : i)}
+              >
                 <span>{item.q}</span>
                 <span className="mi-faq-chev">
                   <Icon name="chev" size={16} />
                 </span>
               </button>
-              <div className="mi-faq-a">{item.a}</div>
+              <div className="mi-faq-a" id={`faq-a-${i}`}>
+                {item.a}
+              </div>
             </div>
           ))}
         </div>
