@@ -9,7 +9,7 @@ import { siteConfig } from '@/lib/site-config';
 
 export const metadata: Metadata = {
   title: { absolute: `문서 | ${siteConfig.name}` },
-  description: `${siteConfig.name} 사용법: 연결 프로필, 토픽 트리, 차트, Publish, 녹화, 설정.`,
+  description: `${siteConfig.name} 사용법: 연결 프로필, 토픽 트리, 차트, 발행, 기록, 설정.`,
   alternates: {
     canonical: '/ko/docs/',
     languages: {
@@ -17,6 +17,15 @@ export const metadata: Metadata = {
       ko: '/ko/docs/',
       'x-default': '/docs/',
     },
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'ko_KR',
+    url: `${siteConfig.url}/ko/docs/`,
+    siteName: siteConfig.name,
+    title: `문서 | ${siteConfig.name}`,
+    description: `${siteConfig.name} 사용법: 연결 프로필, 토픽 트리, 차트, 발행, 기록, 설정.`,
+    images: [{ url: siteConfig.ogImage, width: 1200, height: 630, alt: siteConfig.name }],
   },
 };
 

@@ -23,13 +23,13 @@ export function DocsLayout({
     <div className="mi-container mi-docs">
       <aside className="mi-docs-toc">
         <div className="mi-docs-toc-title">{tocTitle}</div>
-        <nav>{toc}</nav>
+        <nav aria-label="Table of contents">{toc}</nav>
       </aside>
       <main className="mi-docs-body">
         <h1>{title}</h1>
         <details className="mi-docs-toc-mobile">
           <summary>{tocTitle}</summary>
-          <nav>{toc}</nav>
+          <nav aria-label="Table of contents">{toc}</nav>
         </details>
         {sections.map((s) => (
           <section key={s.slug} id={s.slug} className="mi-doc-section">

@@ -44,6 +44,9 @@ export async function loadDocs(lang: DocLang): Promise<DocSection[]> {
     if (!data.title || !data.slug) {
       throw new Error(`${lang}/${file}: frontmatter must include title and slug`);
     }
+    if (!/^[a-z0-9-]+$/.test(String(data.slug))) {
+      throw new Error(`${lang}/${file}: slug "${data.slug}" must match [a-z0-9-]+`);
+    }
     const html = String(
       await unified()
         .use(remarkParse)

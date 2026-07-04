@@ -17,6 +17,15 @@ export const metadata: Metadata = {
       'x-default': '/docs/',
     },
   },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: `${siteConfig.url}/docs/`,
+    siteName: siteConfig.name,
+    title: `Docs | ${siteConfig.name}`,
+    description: `How to use ${siteConfig.name}: connection profiles, topic tree, charts, publish, recording and settings.`,
+    images: [{ url: siteConfig.ogImage, width: 1200, height: 630, alt: siteConfig.name }],
+  },
 };
 
 export default async function Page() {
