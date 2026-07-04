@@ -1,3 +1,46 @@
+export type FeatureIcon = 'tree' | 'chart' | 'diff' | 'send' | 'record' | 'shield';
+
+type FeatureItem = { icon: FeatureIcon; title: string; desc: string; slug: string };
+
+const featureItemsEn: FeatureItem[] = [
+  {
+    icon: 'tree',
+    title: 'Auto-aggregating topic tree',
+    desc: 'Subscribe with # or + wildcards and watch the tree build itself, with live values on every node.',
+    slug: 'topic-tree',
+  },
+  {
+    icon: 'chart',
+    title: 'Real-time charts',
+    desc: 'Numeric payloads become per-key small multiples with now / min / max / avg stats.',
+    slug: 'charts',
+  },
+  {
+    icon: 'diff',
+    title: 'Formats & diff highlighting',
+    desc: 'View any payload as Plain, JSON, Hex or Base64 — changed values are highlighted as they arrive.',
+    slug: 'messages',
+  },
+  {
+    icon: 'send',
+    title: 'Publish panel',
+    desc: 'QoS, retained flag, and full MQTT 5.0 properties including user properties and content type.',
+    slug: 'publish',
+  },
+  {
+    icon: 'record',
+    title: 'Per-topic recording',
+    desc: 'Record selected topics to a local SQLite file and inspect the history later.',
+    slug: 'recording',
+  },
+  {
+    icon: 'shield',
+    title: 'Connection profiles',
+    desc: 'TCP, TLS and WebSocket over MQTT 3.1.1 and 5.0, saved as one-click connection profiles.',
+    slug: 'connection-profiles',
+  },
+];
+
 export const en = {
   nav: { features: 'Features', docs: 'Docs', install: 'Install', faq: 'FAQ' },
   hero: {
@@ -15,44 +58,7 @@ export const en = {
     title: 'Everything you need to debug MQTT',
     lead: 'Connect to a broker and see what your devices are really saying.',
     more: 'Learn more',
-    items: [
-      {
-        icon: 'tree',
-        title: 'Auto-aggregating topic tree',
-        desc: 'Subscribe with # or + wildcards and watch the tree build itself, with live values on every node.',
-        slug: 'topic-tree',
-      },
-      {
-        icon: 'chart',
-        title: 'Real-time charts',
-        desc: 'Numeric payloads become per-key small multiples with now / min / max / avg stats.',
-        slug: 'charts',
-      },
-      {
-        icon: 'diff',
-        title: 'Formats & diff highlighting',
-        desc: 'View any payload as Plain, JSON, Hex or Base64 — changed values are highlighted as they arrive.',
-        slug: 'messages',
-      },
-      {
-        icon: 'send',
-        title: 'Publish panel',
-        desc: 'QoS, retained flag, and full MQTT 5.0 properties including user properties and content type.',
-        slug: 'publish',
-      },
-      {
-        icon: 'record',
-        title: 'Per-topic recording',
-        desc: 'Record selected topics to a local SQLite file and inspect the history later.',
-        slug: 'recording',
-      },
-      {
-        icon: 'shield',
-        title: 'Connection profiles',
-        desc: 'TCP, TLS and WebSocket over MQTT 3.1.1 and 5.0, saved as one-click connection profiles.',
-        slug: 'connection-profiles',
-      },
-    ],
+    items: featureItemsEn,
   },
   install: {
     eyebrow: 'Install',
