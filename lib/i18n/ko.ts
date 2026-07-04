@@ -1,7 +1,7 @@
 import type { Dict } from './en';
 
 export const ko: Dict = {
-  nav: { features: '기능', docs: '문서', install: '설치', faq: 'FAQ' },
+  nav: { features: '기능', docs: '가이드', install: '설치', faq: 'FAQ' },
   hero: {
     badge: '오픈소스 · macOS & Windows',
     title1: '당신의 MQTT 트래픽을,',
@@ -74,6 +74,6 @@ export const ko: Dict = {
     lead: 'mqtt-insight를 받아서 1분 안에 브로커에 연결해보세요.',
     button: '다운로드',
   },
-  footer: { docs: '문서', github: 'GitHub', issues: '이슈', license: 'MIT 라이선스' },
-  docs: { title: '문서', toc: '목차' },
+  footer: { docs: '가이드', github: 'GitHub', issues: '이슈', license: 'MIT 라이선스' },
+  docs: { title: '사용 가이드', toc: '목차' },
 };
