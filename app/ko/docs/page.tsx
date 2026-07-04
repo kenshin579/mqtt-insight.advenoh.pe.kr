@@ -8,7 +8,7 @@ import { SetHtmlLang } from '@/components/set-html-lang';
 import { siteConfig } from '@/lib/site-config';
 
 export const metadata: Metadata = {
-  title: { absolute: `문서 | ${siteConfig.name}` },
+  title: { absolute: `사용 가이드 | ${siteConfig.name}` },
   description: `${siteConfig.name} 사용법: 연결 프로필, 토픽 트리, 차트, 발행, 기록, 설정.`,
   alternates: {
     canonical: '/ko/docs/',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     locale: 'ko_KR',
     url: `${siteConfig.url}/ko/docs/`,
     siteName: siteConfig.name,
-    title: `문서 | ${siteConfig.name}`,
+    title: `사용 가이드 | ${siteConfig.name}`,
     description: `${siteConfig.name} 사용법: 연결 프로필, 토픽 트리, 차트, 발행, 기록, 설정.`,
     images: [{ url: siteConfig.ogImage, width: 1200, height: 630, alt: siteConfig.name }],
   },
