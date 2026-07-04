@@ -2,13 +2,25 @@ import type { Metadata } from 'next';
 import { ko } from '@/lib/i18n/ko';
 import { siteConfig } from '@/lib/site-config';
 
+const titleKo = `${siteConfig.name} — IoT 디버깅용 MQTT 데스크톱 클라이언트`;
+
 export const metadata: Metadata = {
-  title: `${siteConfig.name} — IoT 디버깅용 MQTT 데스크톱 클라이언트`,
+  title: { absolute: titleKo },
   description: ko.hero.lead,
   openGraph: {
+    type: 'website',
     locale: 'ko_KR',
-    title: `${siteConfig.name} — IoT 디버깅용 MQTT 데스크톱 클라이언트`,
+    url: `${siteConfig.url}/ko/`,
+    siteName: siteConfig.name,
+    title: titleKo,
     description: ko.hero.lead,
+    images: [{ url: siteConfig.ogImage, width: 1200, height: 630, alt: siteConfig.name }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: titleKo,
+    description: ko.hero.lead,
+    images: [siteConfig.ogImage],
   },
   alternates: {
     canonical: '/ko/',
